@@ -2,7 +2,7 @@ function Header() {
   return (
     <div>
       <h1>Hello Header</h1>
-      <img src="assets" alt="" />
+      <img src="/airbnb-clone.png" alt="" />
     </div>
   )
 }
