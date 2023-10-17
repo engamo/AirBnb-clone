@@ -39,3 +39,23 @@
   font-weight: 300;
   line-height: 110%;
 }
+.card-container {
+  padding: 40px;
+}
+.card-sub-container {
+
+  position: relative;
+}
+.card-img {
+ width: auto;
+}
+.card-button {
+  position: absolute;
+  left: 6px;
+  top: 6px;
+}
+.star-img {
+  width: 14px;
+  height: 14px;
+  margin-right: 4px;
+}

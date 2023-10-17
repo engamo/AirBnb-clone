@@ -1,6 +1,7 @@
 
 import Header from './Header'
 import Hero from './Hero'
+import Card from './Card'
 import './App.css'
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <>
       <Header />
       <Hero />
+      <Card />
     </>
   )
 }
