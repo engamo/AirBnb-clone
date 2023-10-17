@@ -1,42 +1,41 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-
+.hero-container {
+  padding: 40px;
+}
+.header-container {
+  display: flex;
+  background: white;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.10);
+}
+.hero-sub-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-texts {
+  align-self: left;
+}
 .logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+  padding-left: 30px;
+  padding-top: 22px;
+  padding-bottom: 22px;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.photo-grid {
+  margin-bottom: 40px;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.hero-title {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 110%;
+  margin-bottom: 8px;
 }
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+.hero-para {
+  color: #222;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 110%;
 }

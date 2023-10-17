@@ -1,8 +1,7 @@
 function Header() {
   return (
-    <div>
-      <h1>Hello Header</h1>
-      <img src="/airbnb-clone.png" alt="" />
+    <div className="header-container">
+      <img src="/airbnb-clone.png" alt="" className="logo"/>
     </div>
   )
 }

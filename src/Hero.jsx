@@ -1,8 +1,13 @@
 function Hero() {
   return (
-    <div>
-      <h1>Hello hero</h1>
-      <img src="/photo-grid.png" alt="" />
+    <div className="hero-container">
+      <div className="hero-sub-container">
+        < img src="/photo-grid.png" alt="" className="photo-grid"/>
+      </div>
+      <div className="hero-texts">
+        <h1 className="hero-title">Online Experiences</h1>
+        <p className="hero-para">Join unique interactive activities led by one-of-a-kind hosts—all without leaving home.</p>
+      </div> 
     </div>
   )
 }
