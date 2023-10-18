@@ -1,22 +1,17 @@
-function Card() {
-  return (
-    <div className="card-container">
-      <div className="card-sub-container">
-        <img src="/card-img.png" alt="" className="card-img"/>
-        <button className="card-button">SOLD OUT</button>
-      </div>
-      
-      <div>
-        <img src="/star-img.png" alt="" className="star-img"/>
-        <span>5.0</span>
-        <span>(6)</span>
-        <img src="/ellipse.svg" alt="" />
-        <span>USA</span>
-        <p>Life lessons with Katie Zaferes</p>
-        <p><strong>From $136</strong> / person</p>
-      </div>
-    </div>
-  )
+function Card(props) {
+    return (
+        <div className="card">
+            <img src={`${props.img}`} className="card--image" />
+            <div className="card--stats">
+                <img src="/star-img.png" className="card--star" />
+                <span>{props.rating}</span>
+                <span className="gray">({props.reviewCount}) • </span>
+                <span className="gray">{props.location}</span>
+            </div>
+            <p>{props.title}</p>
+            <p><span className="bold">From ${props.price}</span> / person</p>
+        </div>
+    )
 }
 
 export default Card
