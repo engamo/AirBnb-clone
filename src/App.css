@@ -43,11 +43,11 @@
   padding: 40px;
 }
 .card-sub-container {
-
   position: relative;
 }
 .card-img {
- width: auto;
+  width: 176px;
+  height: 235px;
 }
 .card-button {
   position: absolute;

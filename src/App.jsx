@@ -12,6 +12,7 @@ function App() {
         img={item.coverImg}
         rating={item.stats.rating}
         reviewCount={item.stats.reviewCount}
+        button={item.button}
         location={item.location}
         title={item.title}
         price={item.price}
@@ -22,7 +23,10 @@ function App() {
     <>
       <Header />
       <Hero />
-      {cards}
+      <div className='card-main-container'>
+        {cards}
+      </div>
+      
     </>
   )
 }

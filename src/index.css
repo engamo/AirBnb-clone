@@ -1,3 +1,7 @@
 #root {
   font-family: 'Poppins', sans-serif;
 }
+.card-main-container {
+  display: flex;
+  justify-content: space-between;
+}
