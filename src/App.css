@@ -44,10 +44,13 @@
 }
 .card-sub-container {
   position: relative;
+  width: 300px;
 }
-.card-img {
-  width: 176px;
-  height: 235px;
+.card--img {
+  height: 300px;
+  width: 100%;
+  border-radius: 9px;
+  margin-bottom: 9px;
 }
 .card-button {
   position: absolute;

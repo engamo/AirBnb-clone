@@ -3,7 +3,7 @@ function Card(props) {
         <div className="card-container">
           <div className="card-sub-container">
             <img src={`${props.img}`} className="card--img" />
-            <button className="card-button">{props.button}</button>
+            {props.openSpots === 0 && <button className="card-button">SOLD OUT</button>}
           </div>
             
           <div className="card--stats">
