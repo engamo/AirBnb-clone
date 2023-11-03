@@ -8,7 +8,7 @@ function Card(props) {
     return (
         <div className="card-container">
           <div className="card-sub-container">
-            <img src={`${props.coverImg}`} className="card--img" />
+            <img src={`${props.coverImg}`} className="card--img" alt=""/>
             {badgeText && <button className="card-button">{badgeText}</button>}
           </div>
             
