@@ -15,14 +15,14 @@ function App() {
     )
   })
   return (
-    <>
+    <div className='container'>
       <Header />
       <Hero />
       <section className='card-main-container'>
         {cards}
       </section>
       
-    </>
+    </div>
   )
 }
 

@@ -3,7 +3,6 @@
 }
 .card-main-container {
   display: flex;
-  flex-wrap: nowrap;
-  gap: 200px;
   overflow-x: auto;
+  padding: 0 40px 30px;
 }
